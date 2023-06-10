@@ -1,0 +1,59 @@
+.container-8 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box {
+        background: linear-gradient(270deg, rgba(5, 35, 92, 0.77) 0%, #0771BA 100%);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 12px;
+        height: 259px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40rem;
+        color: white;
+
+        .content-box {
+            p {
+                font-size: 24px;
+                position: relative;
+                top: 2rem;
+            }
+
+            h1 {
+                font-size: 48px;
+                font-weight: 700;
+            }
+
+            .projects {
+                position: relative;
+                bottom: 1.5rem;
+
+            }
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 157px;
+            height: 42px;
+            border-radius: 36px;
+            cursor: pointer;
+            color: #0771BA;
+            border: none;
+            transition: 0.4s;
+        }
+
+        button:hover {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+        }
+
+
+    }
+}

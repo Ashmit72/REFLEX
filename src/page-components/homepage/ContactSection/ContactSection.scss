@@ -1,0 +1,99 @@
+.last-container {
+    height: 475px;
+    background: #F3F3F3;
+
+    .top {
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .reflex {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            position: relative;
+            bottom: 4.5rem;
+            gap: 1rem;
+
+
+
+            p {
+                width: 272px;
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+        }
+
+        .company {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            h2 {
+                font-weight: 700;
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .categories {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: relative;
+            bottom: 3.3rem;
+
+            h2 {
+                font-weight: 700;
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        .connect {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: relative;
+            bottom: 4.2rem;
+
+            h2 {
+                font-weight: 700;
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .icons {
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                gap: 3rem;
+            }
+        }
+    }
+
+    .bottom {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid black;
+        padding: 0 4rem 0 4rem;
+    }
+
+}

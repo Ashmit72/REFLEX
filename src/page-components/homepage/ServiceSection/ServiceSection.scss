@@ -1,0 +1,120 @@
+.container-3 {
+    height: 1452px;
+    background-color: #F5F5F5;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    .top {
+
+        .header-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            #provide {
+                position: relative;
+                top: 2rem;
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 32px;
+                font-weight: 400;
+            }
+
+            #para {
+
+                width: 527px;
+                text-align: center;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .cards {
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
+
+            .card {
+                height: 439px;
+                width: 413px;
+                background-color: white;
+                box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+                border-radius: 12px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h3 {
+                    font-weight: 500;
+                }
+
+                p {
+                    text-align: center;
+                    width: 241px;
+                }
+
+                button {
+                    display: flex;
+                    cursor: pointer;
+                    color: #0771BA;
+                    background: transparent;
+                    border: 2px solid #0771BA;
+                    justify-content: center;
+                    align-items: center;
+                    width: 113px;
+                    height: 40px;
+                    border-radius: 49px;
+                    transition: 0.4s;
+                }
+
+                button:hover {
+                    color: white;
+                    background: #0771BA;
+                    font-weight: 400;
+
+                }
+
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            cursor: pointer;
+            border-radius: 49px;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 155px;
+            height: 40px;
+            border: 2px solid #0771BA;
+            color: #0771BA;
+
+        }
+
+        button:hover {
+            background: #0771BA;
+            color: white;
+            transition: 0.4s;
+        }
+    }
+}

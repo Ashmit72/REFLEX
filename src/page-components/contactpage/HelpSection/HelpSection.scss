@@ -1,0 +1,173 @@
+.container-2 {
+    background: #F5F5F5;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-weight: 400;
+            font-size: 32px;
+        }
+
+        p {
+            width: 527px;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+
+    .boxes {
+        display: flex;
+
+        .form-box {
+            background: linear-gradient(180deg, #0771BA 0%, rgba(5, 35, 92, 0.77) 100%);
+            height: 478px;
+            width: 634px;
+            border-radius: 12px 0px 0px 12px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                font-size: 32px;
+                font-weight: 500;
+                text-align: center;
+
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                width: 100%;
+
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    cursor: pointer;
+
+                    input {
+                        width: 50%;
+                        background: transparent;
+                        border: none;
+                        // border-bottom: 2px solid white;
+                        color: white;
+                        text-align: center;
+                    }
+
+                    textarea {
+                        width: 50%;
+                        height: 6rem;
+                        background: transparent;
+                        color: white;
+                        border: none;
+                        // border: 0.25px solid white;
+                        // // border-radius: 5px;
+                        // border-top: 1px solid white;
+                        // border-left: 1px solid white;
+                        // border-right: 1px solid white;
+                        // border-bottom: 1px solid white;
+
+
+                    }
+
+
+
+
+                }
+
+                button {
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px 12px;
+                    gap: 10px;
+                    width: 112px;
+                    height: 40px;
+                    background: transparent;
+                    border-radius: 36px;
+                    color: white;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    border: 1px solid white;
+                    transition: 0.3s;
+                }
+
+                button:hover {
+                    background: white;
+                    color: #0771BA;
+                }
+            }
+
+
+        }
+
+        .contact-box {
+            background: white;
+            height: 478px;
+            width: 634px;
+            display: flex;
+            flex-direction: column;
+            justify-self: flex-start;
+            align-items: center;
+
+            .contact-items {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 2.5rem;
+
+                .title-text {
+                    h1 {
+                        font-size: 32px;
+                        font-weight: 500;
+                    }
+
+                    .title {
+                        width: 299px;
+                    }
+                }
+
+                .items {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 2rem;
+
+                    .icons {
+                        display: flex;
+                        gap: 2rem;
+
+                        p {
+                            position: relative;
+                            bottom: 1.3rem;
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}

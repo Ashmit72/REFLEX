@@ -1,0 +1,100 @@
+.parent-container {
+  .container-1 {
+    background-image: url("../../../assets/Rectangle5.png");
+    height: 744px;
+
+    .box-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 6rem;
+
+      .reflex-logo {
+        background-color: white;
+        width: 140px;
+        border-radius: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .heading {
+        .heading-text {
+          color: white;
+          font-size: xxx-large;
+          width: 700px;
+          height: 130px;
+
+          .success {
+            padding-left: 7rem;
+          }
+        }
+      }
+
+      .paragraph-top {
+        color: white;
+        width: 505px;
+        line-height: 2rem;
+        text-align: center;
+      }
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 400px;
+        height: 50px;
+        padding-top: 2rem;
+
+        .inquire-now {
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 8px 12px;
+          gap: 10px;
+          width: 112px;
+          height: 40px;
+          background: #0771ba;
+          border-radius: 36px;
+          color: white;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+          border: none;
+          transition: 0.3s;
+        }
+
+        .inquire-now:hover {
+          background-color: transparent;
+          border: 1px solid #0771ba;
+        }
+
+        .learn-more {
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 8px 12px;
+          gap: 10px;
+          width: 112px;
+          height: 40px;
+          background: rgba(255, 255, 255, 0.2);
+          border: 1px solid white;
+          border-radius: 36px;
+          color: white;
+          flex: none;
+          order: 1;
+          flex-grow: 0;
+          transition: 0.3s;
+        }
+
+        .learn-more:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
