@@ -1,0 +1,25 @@
+.service-third-section {
+    background: linear-gradient(89.85deg, #0771BA 0.13%, rgba(5, 35, 92, 0.77) 99.87%);
+    height: 430px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            width: 626px;
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 400;
+        }
+    }
+}

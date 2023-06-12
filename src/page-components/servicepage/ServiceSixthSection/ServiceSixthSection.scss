@@ -1,0 +1,19 @@
+.service-sixth-section {
+    height: 430px;
+    background: #F5F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .content {
+        p {
+            width: 626px;
+            font-size: 20px;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 32px;
+        }
+    }
+}
