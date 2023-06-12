@@ -1,8 +1,10 @@
-import AboutTopSection from '@/page-components/aboutpage/AboutTopSection';
+import About from '@/page-components/aboutpage/about/About';
 
 const about = () => {
   return (
-    <><AboutTopSection /></>
+    <>
+      <About />
+    </>
   )
 }
 

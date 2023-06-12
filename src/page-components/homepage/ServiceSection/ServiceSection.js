@@ -1,12 +1,20 @@
-import React from 'react'
-import "./ServiceSection.scss"
-import Image from 'next/image'
-import Website from "../../../assets/ic_round-web.png";
-import Mobile from "../../../assets/carbon_application-mobile.png"
-import Software from "../../../assets/eos-icons_software.png"
-import Shop from "../../../assets/mdi_shop-location.png"
-import Pen from "../../../assets/zondicons_pen-tool.png"
-import Nimbus from "../../../assets/nimbus_marketing.png"
+import './ServiceSection.scss';
+
+import React from 'react';
+
+import Image from 'next/image';
+
+import Mobile
+  from '../../../assets/HomePage/ServiceSection/carbon_application-mobile.png';
+import Software
+  from '../../../assets/HomePage/ServiceSection/eos-icons_software.png';
+import Website from '../../../assets/HomePage/ServiceSection/ic_round-web.png';
+import Shop
+  from '../../../assets/HomePage/ServiceSection/mdi_shop-location.png';
+import Nimbus
+  from '../../../assets/HomePage/ServiceSection/nimbus_marketing.png';
+import Pen
+  from '../../../assets/HomePage/ServiceSection/zondicons_pen-tool.png';
 
 const ServiceSection = () => {
   return (

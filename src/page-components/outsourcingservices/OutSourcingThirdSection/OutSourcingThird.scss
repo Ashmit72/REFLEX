@@ -1,0 +1,33 @@
+.outsourcing-third-section {
+    height: 430px;
+    background: linear-gradient(89.85deg, #0771BA 0.13%, rgba(5, 35, 92, 0.77) 99.87%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        p {
+            width: 626px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 32px;
+        }
+    }
+
+}

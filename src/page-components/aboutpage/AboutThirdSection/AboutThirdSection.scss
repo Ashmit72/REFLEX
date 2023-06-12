@@ -1,0 +1,94 @@
+.about-third-section {
+    background: linear-gradient(89.85deg, #0771BA 0.13%, rgba(5, 35, 92, 0.77) 99.87%);
+    height: 740px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9rem;
+
+
+        .content {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+
+            h1 {
+                font-weight: 400;
+                font-size: 32px;
+            }
+
+            p {
+                width: 600px;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            button {
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px 12px;
+                gap: 10px;
+                width: 112px;
+                height: 40px;
+                background: transparent;
+                border-radius: 36px;
+                color: white;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                border: 2px solid white;
+                transition: 0.3s;
+            }
+
+            button:hover {
+
+                background: white;
+                color: #0771BA;
+
+            }
+
+        }
+
+        .image-container {
+            width: 607px;
+            height: 362px;
+            border-radius: 20px;
+            background: linear-gradient(90deg, #FFFFFF 0%, #1666FF 100%);
+
+            .img {
+                transform: translate(-25px, 25px);
+            }
+        }
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-weight: 400;
+            font-size: 32px;
+        }
+
+        p {
+            width: 441px;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+}

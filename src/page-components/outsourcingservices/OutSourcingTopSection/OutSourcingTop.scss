@@ -1,0 +1,26 @@
+.outsourcing-top-section {
+    height: 743px;
+    background-image: url("../../../assets/OutSourcingPage/OutSourcingFirstSection/Rectangle56.png");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-weight: 400;
+            font-size: 48px;
+        }
+
+        p {
+            width: 1052px;
+            text-align: center;
+            font-size: 36px;
+        }
+    }
+}

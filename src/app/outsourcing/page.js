@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import Outsourcing
+  from '@/page-components/outsourcingservices/outsourcing/Outsourcing';
 
 const page = () => {
   return (
-    <div>Outsourcing Services</div>
+    <>
+      <Outsourcing />
+    </>
   )
 }
 

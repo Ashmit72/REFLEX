@@ -1,11 +1,14 @@
-import Image from "next/image"
-import "./FeaturedProjectSection.scss"
-import Project1 from "../../../assets/Rectangle62.png"
-import Project2 from "../../../assets/Rectangle63.png"
-import Project3 from "../../../assets/Rectangle64.png"
-import { FaArrowRight } from "react-icons/fa";
+import './FeaturedProjectSection.scss';
 
+import Image from 'next/image';
+import { FaArrowRight } from 'react-icons/fa';
 
+import Project1
+  from '../../../assets/HomePage/FeaturedProjectsSection/Rectangle62.png';
+import Project2
+  from '../../../assets/HomePage/FeaturedProjectsSection/Rectangle63.png';
+import Project3
+  from '../../../assets/HomePage/FeaturedProjectsSection/Rectangle64.png';
 
 const FeaturedProjectsSection = () => {
   return (

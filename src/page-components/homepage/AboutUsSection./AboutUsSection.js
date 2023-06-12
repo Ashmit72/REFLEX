@@ -1,7 +1,10 @@
-import React from 'react'
-import "./AboutUsSection.scss"
-import Image from 'next/image'
-import Person from "../../../assets/Rectangle3.png";
+import './AboutUsSection.scss';
+
+import React from 'react';
+
+import Image from 'next/image';
+
+import Person from '../../../assets/HomePage/AboutUsSection/Rectangle3.png';
 
 const AboutUsSection = () => {
   return (

@@ -1,0 +1,26 @@
+.outsource-second-section {
+    height: 430px;
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        p {
+            width: 626px;
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+    }
+}

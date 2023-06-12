@@ -7,7 +7,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/Navbar/logo.png';
 
 const Navbar = () => {
 
@@ -31,11 +31,13 @@ const Navbar = () => {
 
         <Link onClick={() => handleActiveMenuItem('/services')} className={activeClass === '/services' ? 'active' : ''} href="/services"> Services</Link>
 
-        <Link onClick={() => handleActiveMenuItem('/projects')} className={activeClass === '/projects' ? 'active' : ''} href="/projects">Projects</Link>
+        {/* <Link onClick={() => handleActiveMenuItem('/projects')} className={activeClass === '/projects' ? 'active' : ''} href="/projects">Projects</Link> */}
 
-        <Link onClick={() => handleActiveMenuItem('/products')} className={activeClass === '/products' ? 'active' : ''} href="/products">Products</Link>
+        {/* <Link onClick={() => handleActiveMenuItem('/products')} className={activeClass === '/products' ? 'active' : ''} href="/products">Products</Link> */}
 
         <Link onClick={() => handleActiveMenuItem('/about')} className={activeClass === '/about' ? 'active' : ''} href="/about">About Us</Link>
+
+        <Link onClick={() => handleActiveMenuItem('/outsourcing')} className={activeClass === '/outsourcing' ? 'active' : ''} href="/outsourcing">Outsourcing Services</Link>
 
       </div>
       <Link href="/contact" className='nav-btn' onClick={() => handleActiveMenuItem('/contact')}>Contact Us</Link>

@@ -2,14 +2,10 @@ import './ClientSection.scss';
 
 import Image from 'next/image';
 
-// import comma from '../../../../assets/comma.png';
-// import person2 from '../../../../assets/Ellipse2.png';
-// import person3 from '../../../../assets/Ellipse3.png';
-// import person1 from '../../../assets/Ellipse1';
-import comma from '../../../assets/comma.png';
-import person1 from '../../../assets/Ellipse1.png';
-import person2 from '../../../assets/Ellipse2.png';
-import person3 from '../../../assets/Ellipse3.png';
+import comma from '../../../assets/HomePage/ClientSection/comma.png';
+import person1 from '../../../assets/HomePage/ClientSection/Ellipse1.png';
+import person2 from '../../../assets/HomePage/ClientSection/Ellipse2.png';
+import person3 from '../../../assets/HomePage/ClientSection/Ellipse3.png';
 
 const ClientSection = () => {
   return (

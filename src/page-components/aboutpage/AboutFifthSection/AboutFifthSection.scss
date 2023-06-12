@@ -1,0 +1,56 @@
+.about-fifth-section {
+    background: linear-gradient(89.85deg, #0771BA 0.13%, rgba(5, 35, 92, 0.77) 99.87%);
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-weight: 400;
+            font-size: 32px;
+            position: relative;
+            bottom: 2rem;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            position: relative;
+            bottom: 1rem;
+        }
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+
+
+        .image-container {
+            width: 558px;
+            height: 350px;
+        }
+
+        .content {
+            p {
+                width: 626px;
+                font-size: 20px;
+                line-height: 30px;
+            }
+
+            .bold {
+                font-weight: 600;
+            }
+        }
+    }
+}

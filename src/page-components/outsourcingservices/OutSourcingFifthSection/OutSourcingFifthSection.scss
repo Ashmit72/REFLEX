@@ -1,0 +1,27 @@
+.outsourcing-fifth-section {
+    background: linear-gradient(89.85deg, #0771BA 0.13%, rgba(5, 35, 92, 0.77) 99.87%);
+    height: 430px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .content {
+        p {
+            width: 626px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 32px;
+        }
+
+        .image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

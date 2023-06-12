@@ -1,13 +1,18 @@
-import React from 'react'
-import "./TeamSection.scss"
-import { FaFacebookF } from "react-icons/fa"
-import { FaTwitter } from "react-icons/fa"
-import { FiInstagram } from "react-icons/fi"
-import person1 from "../../../assets/Rectangle65.png";
-import person2 from "../../../assets/Rectangle66.png";
-import person3 from "../../../assets/Rectangle67.png";
-import person4 from "../../../assets/Rectangle68.png";
-import Image from 'next/image'
+import './TeamSection.scss';
+
+import React from 'react';
+
+import Image from 'next/image';
+import {
+  FaFacebookF,
+  FaTwitter,
+} from 'react-icons/fa';
+import { FiInstagram } from 'react-icons/fi';
+
+import person1 from '../../../assets/HomePage/TeamSection/Rectangle65.png';
+import person2 from '../../../assets/HomePage/TeamSection/Rectangle66.png';
+import person3 from '../../../assets/HomePage/TeamSection/Rectangle67.png';
+import person4 from '../../../assets/HomePage/TeamSection/Rectangle68.png';
 
 const TeamSection = () => {
   return (

@@ -9,7 +9,7 @@ import {
   FiTwitter,
 } from 'react-icons/fi';
 
-import Logo from '../../../assets/logo3.png';
+import Logo from '../../../assets/HomePage/ContactSection/logo3.png';
 
 const ContactSection = () => {
   return (

@@ -1,3 +1,4 @@
+"use client";
 import './HelpSection.scss';
 
 import {
@@ -7,6 +8,13 @@ import {
 import { MdPhoneInTalk } from 'react-icons/md';
 
 const HelpSection = () => {
+
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    }
+
+
     return (
         <div className='container-2' >
             <div className='header' >
@@ -19,7 +27,7 @@ const HelpSection = () => {
             <div className='boxes'>
                 <div className='form-box' >
                     <h1>Send us a Message</h1>
-                    <form>
+                    <form onSubmit={handleSubmit} >
                         <label>
                             Name:
                             <input required />

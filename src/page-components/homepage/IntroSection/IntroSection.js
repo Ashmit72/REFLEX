@@ -1,6 +1,8 @@
-import "./IntroSection.scss";
-import Image from "next/image";
-import Logo from "../../../assets/logo1.png"
+import './IntroSection.scss';
+
+import Image from 'next/image';
+
+import Logo from '../../../assets/HomePage/IntroSection/logo1.png';
 
 const IntroSection = () => {
   return (
