@@ -1,102 +1,152 @@
 .parent-container {
-  .container-1 {
-    background-image: url("../../../assets/HomePage/IntroSection/Rectangle5.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 744px;
+  background-image: url("../../../assets/HomePage/IntroSection/Rectangle5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 744px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    .box-1 {
+  .header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .image-container {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
-      padding-top: 6rem;
+      justify-content: center;
+      background: white;
+      width: 138px;
+      height: 122.37px;
+      border-radius: 16px;
+    }
 
-      .reflex-logo {
-        background-color: white;
-        width: 140px;
-        border-radius: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      width: 639px;
+    }
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      text-align: center;
+      width: 505px;
+      font-size: 16px;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 400px;
+
+    }
+
+    .inquire {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      width: 112px;
+      height: 40px;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 40px;
+      border: none;
+      color: white;
+      background: #0771BA;
+      cursor: pointer;
+      transition: 0.6s;
+
+    }
+
+    .inquire:hover {
+      border: 2px solid #0771BA;
+      background: transparent;
+    }
+
+    .learn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      width: 112px;
+      height: 40px;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 40px;
+      border: 2px solid white;
+      color: white;
+      background: rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+      transition: 0.6s;
+
+    }
+
+    .learn:hover {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background: transparent;
+    }
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .parent-container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 0px;
+    width: 100px;
+  }
+
+  .footer p {
+    width: 100%;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .parent-container {
+    .header {
+      h1 {
+        width: 20rem;
+        font-size: 32px;
       }
+    }
 
-      .heading {
-        .heading-text {
-          color: white;
-          font-size: xxx-large;
-          width: 700px;
-          height: 130px;
-
-          .success {
-            padding-left: 7rem;
-          }
-        }
-      }
-
-      .paragraph-top {
-        color: white;
-        width: 505px;
-        line-height: 2rem;
-        text-align: center;
+    .footer {
+      p {
+        width: 22rem;
       }
 
       .buttons {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: row;
-        width: 400px;
-        height: 50px;
-        padding-top: 2rem;
-
-        .inquire-now {
-          cursor: pointer;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 8px 12px;
-          gap: 10px;
-          width: 112px;
-          height: 40px;
-          background: #0771ba;
-          border-radius: 36px;
-          color: white;
-          flex: none;
-          order: 1;
-          flex-grow: 0;
-          border: none;
-          transition: 0.3s;
-        }
-
-        .inquire-now:hover {
-          background-color: transparent;
-          border: 1px solid #0771ba;
-        }
-
-        .learn-more {
-          cursor: pointer;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 8px 12px;
-          gap: 10px;
-          width: 112px;
-          height: 40px;
-          background: rgba(255, 255, 255, 0.2);
-          border: 1px solid white;
-          border-radius: 36px;
-          color: white;
-          flex: none;
-          order: 1;
-          flex-grow: 0;
-          transition: 0.3s;
-        }
-
-        .learn-more:hover {
-          background-color: transparent;
-        }
+        flex-direction: column;
+        gap: 1rem;
       }
     }
   }
+
+
+
+
+
 }
