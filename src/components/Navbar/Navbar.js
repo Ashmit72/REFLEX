@@ -7,9 +7,15 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+// import { GiHamburgerMenu } from 'react-icons/gi';
 import Logo from '../../assets/Navbar/logo.png';
 
 const Navbar = () => {
+
+
+
+
+
 
   const [activeClass, setActiveClass] = useState('/');
   const handleActiveMenuItem = (value) => {
@@ -21,11 +27,15 @@ const Navbar = () => {
 
       <Link href="/" >
         <div className="logo">
-          <Image src={Logo} width={95} height={94} />
+          <Image src={Logo} />
         </div>
       </Link>
 
+
+
       <div className="nav-elements">
+
+
 
         <Link onClick={() => handleActiveMenuItem('/')} className={activeClass === '/' ? 'active' : ''} href="/">Home</Link>
 
@@ -41,6 +51,10 @@ const Navbar = () => {
 
       </div>
       <Link href="/contact" className='nav-btn' onClick={() => handleActiveMenuItem('/contact')}>Contact Us</Link>
+
+
+
+
 
 
 

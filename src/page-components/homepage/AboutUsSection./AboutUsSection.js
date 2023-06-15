@@ -10,7 +10,7 @@ const AboutUsSection = () => {
   return (
 
     <div className='container' >
-      <div className='header'>
+      <div className={"header"}>
         <h1>About Us</h1>
         <p>
           Expertise in Web Application and Software Development
@@ -33,7 +33,7 @@ const AboutUsSection = () => {
           <button>Learn More</button>
         </div>
         <div className='image-container'>
-          <Image className='img' src={Person} />
+          <Image className='img' src={Person} fill={true} />
         </div>
       </div>
 

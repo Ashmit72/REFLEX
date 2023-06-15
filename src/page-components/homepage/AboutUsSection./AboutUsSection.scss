@@ -6,6 +6,12 @@
   align-items: center;
   justify-content: center;
   color: white;
+  padding: 50px 140px;
+
+  @media (max-width:768px) {
+    height: 1100px;
+    padding: 30px 30px;
+  }
 
 
   .header {
@@ -18,12 +24,18 @@
     h1 {
       font-weight: 400;
       font-size: 32px;
+      width: auto;
+
+
     }
 
     p {
       text-align: center;
       font-size: 16px;
-      width: 452px;
+      max-width: 452px;
+
+
+
     }
 
   }
@@ -31,13 +43,20 @@
   .bottom {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 25rem;
+    justify-content: space-between;
+    gap: 5rem;
+    width: 100%;
 
-    @media screen and (max-width: 768px) {
+    @media (max-width: 768px) {
+      // gap: 0;
       flex-direction: column;
-      gap: unset;
     }
+
+    @media (max-width: 480px) {}
+
+
+
+
 
     .text {
       display: flex;
@@ -45,6 +64,7 @@
       align-items: flex-start;
       justify-content: space-between;
       gap: 1rem;
+
 
       ul {
         display: flex;
@@ -54,6 +74,8 @@
         position: relative;
         right: 2rem;
 
+
+
         h4 {
           font-size: 20px;
           font-weight: 600;
@@ -61,6 +83,9 @@
       }
 
       button {
+
+
+
         width: 112px;
         height: 40px;
         border-radius: 40px;
@@ -76,10 +101,12 @@
         background: white;
         border: none;
         color: #0771BA;
+
+
       }
 
       p {
-        width: 733px;
+        max-width: 733px;
         font-size: 16px;
       }
     }
@@ -87,10 +114,28 @@
     .image-container {
       background: linear-gradient(90deg, #848484 0%, #FFFFFF 100%);
       border-radius: 20px;
+      position: relative;
+      aspect-ratio: 1.272727273;
+      width: 400px;
+
 
       .img {
         transform: translate(-35px, 30px);
+
+
       }
+
+
+      @media (max-width: 768px) {
+        background: none;
+        width: 100%;
+
+        .img {
+          transform: none;
+        }
+
+      }
+
     }
 
 
